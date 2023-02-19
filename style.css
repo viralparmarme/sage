@@ -1,18 +1,12 @@
-@font-face {
-    font-family: 'Monument Regular';
-    src: url(./monument.otf);
-  }
-
 body {
-    font-family: 'Lexend Deca', sans-serif;
-    text-underline-offset: 0.5em;
-    background-color: black;
-    color: white;
+    font-family: 'Poppins', sans-serif;
+    background-color: #040408;
+    color: #FBFBF8;
     font-size: larger;
+    font-weight: 500;
 }
 
 h1 {
-    font-family: 'Monument Regular', sans-serif;
-    font-weight: bolder;
-    font-size: 5em;
+    font-weight: 900;
+    font-size: 6em;
 }
