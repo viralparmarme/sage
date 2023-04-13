@@ -1,0 +1,15 @@
+<div class="row header fixed-top">
+    <div class="col p-2 text-center">
+        <a routerLink="/home">
+            <img *ngIf="theme==='dark'" src="./../../../assets/sage-white.png">
+            <img *ngIf="theme==='light'" src="./../../../assets/sage-black.png">
+        </a>
+    </div>
+    <hr>
+</div>
+<br>
+<div class="mt-5"></div>
+<br>
+<div class="theme-switcher">
+    <app-theme-switcher></app-theme-switcher>
+</div>
