@@ -3,5 +3,18 @@ body {
     background-color: #000000;
     color: #ffffff;
     font-size: larger;
-    font-weight: 500;
+    font-weight: 400;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+a {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+a:hover {
+    color: #aaaaaa;
 }
